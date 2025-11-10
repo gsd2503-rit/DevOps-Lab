@@ -2,21 +2,21 @@ pipeline{
   agent any
 
   stages {
-    stage("Checkout"){
+    stage('Checkout'){
       steps{
-      git branch: 'main', url:"https://github.com/gsd2503-rit/DevOps-Lab"
+      git branch: 'main', url:'https://github.com/gsd2503-rit/DevOps-Lab'
       }
     }
 
     stage('Build'){
       steps{
-        echo "Building...."
+        echo 'Building....'
       }
     }
 
     stage('Test'){
       steps{
-        echo "Testing...."
+        echo 'Testing....'
       }
     }
     
