@@ -1,3 +1,3 @@
 for i in range(1,11):
   print(i*2)
-print("Hello from webhook")
+print("Hello from web-hook")
